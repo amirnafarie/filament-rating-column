@@ -1,6 +1,6 @@
 <?php
 
-namespace Amir\FilamentRatingColumn\Columns;
+namespace AmirNafarie\FilamentRatingColumn\Columns;
 
 use Filament\Tables\Columns\Column;
 
