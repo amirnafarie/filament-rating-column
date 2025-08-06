@@ -1,6 +1,6 @@
 <?php
 
-namespace Amir\FilamentRatingColumn;
+namespace AmirNafarie\FilamentRatingColumn;
 
 use Illuminate\Support\ServiceProvider;
 
