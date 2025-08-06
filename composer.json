@@ -1,19 +1,30 @@
 {
-    "name": "amir/filament-rating-column",
-    "description": "A rating column for Filament tables",
+    "name": "amirnafarie/filament-rating-column",
+    "description": "Filament rating column for Laravel tables.",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Amir\\FilamentRatingColumn\\": "src/"
-        }
-    },
     "authors": [
         {
-            "name": "amir",
+            "name": "Amir Nafarie",
             "email": "amir.nafarie@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "AmirNafarie\\FilamentRatingColumn\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AmirNafarie\\FilamentRatingColumn\\FilamentRatingColumnServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }
