@@ -1,0 +1,19 @@
+{
+    "name": "amir/filament-rating-column",
+    "description": "A rating column for Filament tables",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amir\\FilamentRatingColumn\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amir",
+            "email": "amir.nafarie@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
