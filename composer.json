@@ -1,7 +1,7 @@
 {
     "name": "amirnafarie/filament-rating-column",
-    "description": "Filament rating column for Laravel tables.",
-    "type": "library",
+    "description": "A custom rating column for Filament tables.",
+    "type": "filament-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -26,5 +26,12 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "keywords": [
+        "filament",
+        "filamentphp",
+        "filament-plugin",
+        "rating",
+        "column"
+    ]
 }
